@@ -1,58 +1,49 @@
 # 👋 Olá, eu sou o Francistone
 
 💼 Profissional de infraestrutura e tecnologia  
-🔧 Especialista em redes, servidores e automação  
+🔧 Foco em redes, servidores Linux e diagnóstico de problemas  
 
 ---
 
 ## 🚀 Sobre mim
 
-Atuo com infraestrutura de TI, com foco em redes e provedores de internet.
+Atuo com infraestrutura de TI, com experiência prática em redes, servidores e análise de desempenho.
 
-Tenho experiência prática com:
+Tenho foco em:
 
-- Configuração e gerenciamento de equipamentos MikroTik
-- Enlaces PTP e redes wireless
-- Servidores Linux (Ubuntu/Debian)
-- Diagnóstico e otimização de redes
-- Automação de processos e testes de desempenho
-- Suporte técnico especializado
+- Diagnóstico e troubleshooting de rede  
+- Administração de sistemas Linux  
+- Monitoramento e análise de desempenho  
+- Automação de tarefas operacionais  
 
 ---
 
 ## 🛠️ Tecnologias e ferramentas
 
-- MikroTik (RouterOS, NAT, VLAN, QoS, PTP)
-- Linux (Ubuntu, Debian)
-- Redes (TCP/IP, DHCP, DNS, Firewall)
-- Git e GitHub
-- Monitoramento de rede
+- **Redes:** TCP/IP, NAT, DHCP, DNS  
+- **Linux:** Ubuntu, Debian  
+- **Ferramentas:** Git, GitHub, nPerf, Speedtest  
+- **Monitoramento:** testes de latência, análise de performance  
 
 ---
 
 ## 📂 Projetos em destaque
 
-🚧 Em construção...
-
-Em breve estarei adicionando projetos reais, incluindo:
-
-- Configurações de redes MikroTik
-- Monitoramento de velocidade de internet
-- Automação de testes de rede
-- Documentações técnicas
-
----
-
-## 📫 Contato
-
-- 🌍 Localização: Brasil 🇧🇷
-- 💼 Atuação: Freelancer / Infraestrutura de TI
+- 📁 **infra-labs**  
+  Laboratório com testes, diagnósticos e documentação técnica de infraestrutura  
 
 ---
 
 ## 📊 Estatísticas
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=dark)
+
+---
+
+## 📫 Contato
+
+- 🌍 Brasil 🇧🇷  
+- 💼 Infraestrutura | Redes | Linux  
 
 <!--
 **francistone/francistone** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
