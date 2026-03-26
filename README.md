@@ -20,10 +20,10 @@ Tenho foco em:
 
 ## 🛠️ Tecnologias e ferramentas
 
-- **Redes:** TCP/IP, NAT, DHCP, DNS  
-- **Linux:** Ubuntu, Debian  
-- **Ferramentas:** Git, GitHub, nPerf, Speedtest  
-- **Monitoramento:** testes de latência, análise de performance  
+![Linux](https://img.shields.io/badge/Linux-Admin-black?style=for-the-badge&logo=linux)
+![Networking](https://img.shields.io/badge/Networking-TCP/IP-blue?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-Version%20Control-orange?style=for-the-badge&logo=git)
+![Monitoring](https://img.shields.io/badge/Monitoring-Network-green?style=for-the-badge)
 
 ---
 
@@ -37,6 +37,8 @@ Tenho foco em:
 ## 📊 Estatísticas
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=dark)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=francistone&layout=compact&theme=dark)
 
 ---
 
