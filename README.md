@@ -42,7 +42,7 @@
 
 ### 📊 Estatísticas
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francistone&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Francistone&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Francistone&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="175" />
+</div>
