@@ -1,95 +1,48 @@
+<h1 align="center">Francistone</h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/francistone/francistone/main/assets/banner.png" alt="Francistone Banner" width="100%" onerror="this.style.display='none'" />
-</p>
-
-<h1 align="center">👋 Olá, eu sou o Francistone</h1>
-<p align="center">
-  <b>Especialista em Infraestrutura de TI | Administração Linux | Engenharia de Redes & Troubleshooting</b>
+  <b>Linux SysAdmin | Network & Infrastructure Specialist</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/francistone" target="_blank">
-    <img src="https://img.shields.io/badge/STATUS-ACTIVE-0891b2?style=for-the-badge&logo=linux&labelColor=1c1917" alt="Status" />
-  </a>
-  <a href="https://linkedin.com/in/francistone" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-PROFILE-0077B5?style=for-the-badge&logo=linkedin&labelColor=1c1917" alt="LinkedIn" />
-  </a>
-  <a href="mailto:francistone@exemplo.com">
-    <img src="https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&labelColor=1c1917" alt="Email" />
-  </a>
+  <img src="https://img.shields.io/badge/Focus-Linux%20%26%20Networking-0891b2?style=flat-square&logo=linux&labelColor=1c1917" alt="Focus" />
+  <img src="https://img.shields.io/badge/Location-Brazil%20%F0%9F%87%A7%F0%9F%87%B7-blue?style=flat-square&labelColor=1c1917" alt="Location" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&labelColor=1c1917" alt="Status" />
 </p>
 
 ---
 
-### 🌐 Redes Sociais & Contato
+### 💻 Stack & Competências Técnicas
 
-<p align="center">
-  <a href="https://github.com/francistone" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="36" height="36" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/francistone" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" width="36" height="36" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://youtube.com/@francistone" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube-dark.svg" width="36" height="36" alt="YouTube" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/francistone" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/telegram-dark.svg" width="36" height="36" alt="Telegram" />
-  </a>
-</p>
+| Categoria | Tecnologias / Ferramentas |
+| :--- | :--- |
+| **Sistemas & Kernel** | ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![RHEL](https://img.shields.io/badge/RHEL-EE0000?style=flat-square&logo=redhat&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white) |
+| **Redes & Protocolos** | ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-00599C?style=flat-square) ![Wireshark](https://img.shields.io/badge/Wireshark-167DA4?style=flat-square&logo=wireshark&logoColor=white) ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white) ![DNS/DHCP](https://img.shields.io/badge/DNS%2FDHCP-4285F4?style=flat-square) ![Routing](https://img.shields.io/badge/Routing%20%26%20Switching-003366?style=flat-square) |
+| **Automação & Scripting** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **DevOps & Monitoramento** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Zabbix](https://img.shields.io/badge/Zabbix-F11728?style=flat-square&logo=zabbix&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) |
 
 ---
 
-### 🛠️ Tecnologias & Ferramentas
+### 📂 Projetos em Destaque
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-SCC135?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Networking-TCP%2FIP-blue?style=for-the-badge&logo=cisco&logoColor=white" alt="Networking" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Zabbix-F11728?style=for-the-badge&logo=zabbix&logoColor=white" alt="Zabbix" />
-</p>
+| Projeto | Descrição Técnica | Stack | Status |
+| :--- | :--- | :--- | :---: |
+| 📁 [**infra-labs**](https://github.com/francistone/infra-labs) | Laboratório prático com diagnósticos de rede, cenários de roteamento e documentação de infraestrutura Linux. | `Linux` `Networking` `Bash` | 🟢 Ativo |
+| 🐧 [**linux-hardening-scripts**](https://github.com/francistone) | Conjunto de scripts focados em segurança, hardening de kernel e otimização de servidores Linux. | `Bash` `Security` `SysAdmin` | 🟢 Ativo |
+| 📊 [**network-mon-automation**](https://github.com/francistone) | Automação e integração de agentes Zabbix e coleta de métricas SNMP via Python. | `Python` `Zabbix` `SNMP` | 🟡 Em Breve |
 
 ---
 
-### 👷 No que estou trabalhando & Atividade Recente
+### ⚡ Atividade Recente
 
 <!--START_SECTION:activity-->
 - 📁 **[infra-labs](https://github.com/francistone/infra-labs)** - Laboratório com testes, diagnósticos e documentação técnica de infraestrutura
-- 🛠️ **[linutil-custom](https://github.com/francistone/infra-labs)** - Scripts de automação e hardening para ambientes Linux
 <!--END_SECTION:activity-->
 
 ---
 
-### ⚡ Projetos em Destaque & Ferramentas
-
-| Projeto | Descrição | Stack | Status |
-| :--- | :--- | :--- | :---: |
-| 📁 [**infra-labs**](https://github.com/francistone/infra-labs) | Laboratório completo com diagnósticos de rede, topologias e automação de infraestrutura. | `Linux` `Bash` `Networking` | 🟢 Ativo |
-| 🐧 [**linux-hardening-scripts**](https://github.com/francistone) | Coleção de scripts para segurança e otimização de servidores Linux Debian/Ubuntu/RHEL. | `Bash` `Security` `Linux` | 🟢 Ativo |
-| 📊 [**network-mon-dash**](https://github.com/francistone) | Automação e scripts de integração de monitoramento de performance de redes. | `Python` `Zabbix` `SNMP` | 🟡 Em Breve |
-
----
-
-### 📈 Estatísticas do GitHub
+### 📊 Estatísticas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=dark&hide_border=true&count_private=true" height="175" alt="Estatísticas do GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francistone&layout=compact&theme=dark&hide_border=true" height="175" alt="Linguagens mais utilizadas" />
+  <img src="https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francistone&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=francistone&theme=dark&hide_border=true" alt="Streak Stats" />
-</p>
-
----
-
-### 📫 Como falar comigo:
-- 🌍 **Localização:** Brasil 🇧🇷
-- 💼 **Especialidades:** Infraestrutura | Redes | Linux Administration | DevSecOps
-- 💬 **Pergunte-me sobre:** Configuração de Redes, Troubleshooting TCP/IP, Scripts Shell e Servidores Linux.
