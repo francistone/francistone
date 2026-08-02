@@ -1,63 +1,95 @@
-# 👋 Olá, eu sou o Francistone
+<p align="center">
+  <img src="https://raw.githubusercontent.com/francistone/francistone/main/assets/banner.png" alt="Francistone Banner" width="100%" onerror="this.style.display='none'" />
+</p>
 
-💼 Profissional de infraestrutura e tecnologia  
-🔧 Foco em redes, servidores Linux e diagnóstico de problemas  
+<h1 align="center">👋 Olá, eu sou o Francistone</h1>
+<p align="center">
+  <b>Especialista em Infraestrutura de TI | Administração Linux | Engenharia de Redes & Troubleshooting</b>
+</p>
 
----
-
-## 🚀 Sobre mim
-
-Atuo com infraestrutura de TI, com experiência prática em redes, servidores e análise de desempenho.
-
-Tenho foco em:
-
-- Diagnóstico e troubleshooting de rede  
-- Administração de sistemas Linux  
-- Monitoramento e análise de desempenho  
-- Automação de tarefas operacionais  
-
----
-
-## 🛠️ Tecnologias e ferramentas
-
-![Linux](https://img.shields.io/badge/Linux-Admin-black?style=for-the-badge&logo=linux)
-![Networking](https://img.shields.io/badge/Networking-TCP/IP-blue?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-Version%20Control-orange?style=for-the-badge&logo=git)
-![Monitoring](https://img.shields.io/badge/Monitoring-Network-green?style=for-the-badge)
+<p align="center">
+  <a href="https://github.com/francistone" target="_blank">
+    <img src="https://img.shields.io/badge/STATUS-ACTIVE-0891b2?style=for-the-badge&logo=linux&labelColor=1c1917" alt="Status" />
+  </a>
+  <a href="https://linkedin.com/in/francistone" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-PROFILE-0077B5?style=for-the-badge&logo=linkedin&labelColor=1c1917" alt="LinkedIn" />
+  </a>
+  <a href="mailto:francistone@exemplo.com">
+    <img src="https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&labelColor=1c1917" alt="Email" />
+  </a>
+</p>
 
 ---
 
-## 📂 Projetos em destaque
+### 🌐 Redes Sociais & Contato
 
-- 📁 **infra-labs**  
-  Laboratório com testes, diagnósticos e documentação técnica de infraestrutura  
+<p align="center">
+  <a href="https://github.com/francistone" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="36" height="36" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/francistone" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" width="36" height="36" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://youtube.com/@francistone" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube-dark.svg" width="36" height="36" alt="YouTube" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://t.me/francistone" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/telegram-dark.svg" width="36" height="36" alt="Telegram" />
+  </a>
+</p>
 
 ---
 
-## 📊 Estatísticas
+### 🛠️ Tecnologias & Ferramentas
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=francistone&layout=compact&theme=dark)
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-SCC135?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Networking-TCP%2FIP-blue?style=for-the-badge&logo=cisco&logoColor=white" alt="Networking" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Zabbix-F11728?style=for-the-badge&logo=zabbix&logoColor=white" alt="Zabbix" />
+</p>
 
 ---
 
-## 📫 Contato
+### 👷 No que estou trabalhando & Atividade Recente
 
-- 🌍 Brasil 🇧🇷  
-- 💼 Infraestrutura | Redes | Linux  
+<!--START_SECTION:activity-->
+- 📁 **[infra-labs](https://github.com/francistone/infra-labs)** - Laboratório com testes, diagnósticos e documentação técnica de infraestrutura
+- 🛠️ **[linutil-custom](https://github.com/francistone/infra-labs)** - Scripts de automação e hardening para ambientes Linux
+<!--END_SECTION:activity-->
 
-<!--
-**francistone/francistone** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### ⚡ Projetos em Destaque & Ferramentas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Projeto | Descrição | Stack | Status |
+| :--- | :--- | :--- | :---: |
+| 📁 [**infra-labs**](https://github.com/francistone/infra-labs) | Laboratório completo com diagnósticos de rede, topologias e automação de infraestrutura. | `Linux` `Bash` `Networking` | 🟢 Ativo |
+| 🐧 [**linux-hardening-scripts**](https://github.com/francistone) | Coleção de scripts para segurança e otimização de servidores Linux Debian/Ubuntu/RHEL. | `Bash` `Security` `Linux` | 🟢 Ativo |
+| 📊 [**network-mon-dash**](https://github.com/francistone) | Automação e scripts de integração de monitoramento de performance de redes. | `Python` `Zabbix` `SNMP` | 🟡 Em Breve |
+
+---
+
+### 📈 Estatísticas do GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=francistone&show_icons=true&theme=dark&hide_border=true&count_private=true" height="175" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francistone&layout=compact&theme=dark&hide_border=true" height="175" alt="Linguagens mais utilizadas" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=francistone&theme=dark&hide_border=true" alt="Streak Stats" />
+</p>
+
+---
+
+### 📫 Como falar comigo:
+- 🌍 **Localização:** Brasil 🇧🇷
+- 💼 **Especialidades:** Infraestrutura | Redes | Linux Administration | DevSecOps
+- 💬 **Pergunte-me sobre:** Configuração de Redes, Troubleshooting TCP/IP, Scripts Shell e Servidores Linux.
