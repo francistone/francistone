@@ -26,8 +26,8 @@ Sou *vibe coder* assumido. Não digito cada linha, mas respondo por cada decisã
 
 <!-- destaque:inicio -->
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-meu-imovel-dark.svg"><img src="assets/card-meu-imovel-light.svg" alt="Meu Imóvel, pré-lançamento. Anúncios de imóveis: proprietários e corretores. Regras no banco com RLS, MFA e fotos privadas. Stack: Next.js, Supabase, Postgres, Cloudflare." width="400"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-unificar-dark.svg"><img src="assets/card-unificar-light.svg" alt="UnifiCar, em uso. Gestão de locadora de veículos e oficina. Três livros contábeis isolados, OCR e PDFs. Stack: NestJS, React, Prisma, Docker." width="400"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-meu-imovel-dark.svg"><img src="assets/card-meu-imovel-light.svg" alt="Meu Imóvel, pré-lançamento. Anúncios de imóveis: proprietários e corretores. RLS no banco, MFA no admin e fotos privadas. Stack: Next.js, Supabase, Postgres, Cloudflare." width="400"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-unificar-dark.svg"><img src="assets/card-unificar-light.svg" alt="UnifiCar, uso interno. Gestão de locadora de veículos e oficina. Três livros contábeis isolados, OCR e PDFs. Stack: NestJS, React, Prisma, Docker." width="400"></picture>
 </p>
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-amorinha-dark.svg"><img src="assets/card-amorinha-light.svg" alt="Amorinha, projeto pessoal. Pet virtual para celular, tablet e PC. PWA offline, minigames e cenários em SVG. Stack: React, TypeScript, Vite, PWA." width="400"></picture>
@@ -38,11 +38,11 @@ Sou *vibe coder* assumido. Não digito cada linha, mas respondo por cada decisã
 <!-- ══════════ Como eu trabalho ══════════ -->
 ### Como eu trabalho
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/fluxo-dark.svg"><img align="right" width="380" src="assets/fluxo-light.svg" alt="Fluxo de trabalho: 1 especificação, 2 plano em fases, 3 campanha autônoma com agentes, 4 auditoria independente feita por outro modelo, que pode devolver correções até 3 vezes, e 5 produção só com aprovação humana."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/fluxo-dark.svg"><img align="right" width="380" src="assets/fluxo-light.svg" alt="Fluxo de trabalho: 1 especificação, 2 plano em fases, 3 campanha autônoma com agentes, 4 auditoria independente feita por outro modelo, que pode devolver correções duas vezes antes de a decisão passar para mim, e 5 produção só com aprovação humana."></picture>
 
 Antes de qualquer código existe uma especificação versionada: produto, regras de negócio, arquitetura e segurança. O trabalho anda em **campanhas por fases**. Cada fase é uma missão autônoma, com testes, revisão por subagentes especializados e uma **auditoria independente** feita por outro modelo, que só lê e não edita.
 
-Se a auditoria pede correção, o ciclo volta. Produção, segredos e custos sempre passam por mim.
+Se a auditoria pede correção, o ciclo volta, no máximo duas vezes; na terceira, a decisão é minha. Produção, segredos e custos sempre passam por mim.
 
 - Spec-Driven Development com `.specs/`, skills e subagentes
 - MCP servers e automação de navegador
@@ -56,7 +56,7 @@ Se a auditoria pede correção, o ciclo volta. Produção, segredos e custos sem
 <!-- stack:inicio -->
 | Domínio | Ferramentas |
 | :-- | :-- |
-| **Infra & Redes** | <img src="assets/icons/linux.svg" width="18" height="18" alt="" title="Linux (Debian, Ubuntu)"> <img src="assets/icons/proxmox.svg" width="18" height="18" alt="" title="Proxmox VE"> <img src="assets/icons/box.svg" width="18" height="18" alt="" title="LXC"> <img src="assets/icons/docker.svg" width="18" height="18" alt="" title="Docker"> <img src="assets/icons/nginx.svg" width="18" height="18" alt="" title="Nginx"> <img src="assets/icons/caddy.svg" width="18" height="18" alt="" title="Caddy"> <img src="assets/icons/cloudflare.svg" width="18" height="18" alt="" title="Cloudflare (DNS, Tunnel, R2, Workers)"> <img src="assets/icons/pihole.svg" width="18" height="18" alt="" title="Pi-hole + Unbound"><br>Linux (Debian, Ubuntu)&nbsp;· Proxmox VE&nbsp;· LXC&nbsp;· Docker&nbsp;· Nginx&nbsp;· Caddy&nbsp;· Cloudflare (DNS, Tunnel, R2, Workers)&nbsp;· Pi-hole + Unbound |
+| **Infra & Redes** | <img src="assets/icons/linux.svg" width="18" height="18" alt="" title="Linux (Debian, Ubuntu)"> <img src="assets/icons/proxmox.svg" width="18" height="18" alt="" title="Proxmox VE"> <img src="assets/icons/box.svg" width="18" height="18" alt="" title="LXC"> <img src="assets/icons/docker.svg" width="18" height="18" alt="" title="Docker"> <img src="assets/icons/nginx.svg" width="18" height="18" alt="" title="Nginx"> <img src="assets/icons/caddy.svg" width="18" height="18" alt="" title="Caddy"> <img src="assets/icons/cloudflare.svg" width="18" height="18" alt="" title="Cloudflare (DNS, R2, Workers)"> <img src="assets/icons/pihole.svg" width="18" height="18" alt="" title="Pi-hole + Unbound"><br>Linux (Debian, Ubuntu)&nbsp;· Proxmox VE&nbsp;· LXC&nbsp;· Docker&nbsp;· Nginx&nbsp;· Caddy&nbsp;· Cloudflare (DNS, R2, Workers)&nbsp;· Pi-hole + Unbound |
 | **Backend & Dados** | <img src="assets/icons/postgresql.svg" width="18" height="18" alt="" title="PostgreSQL"> <img src="assets/icons/supabase.svg" width="18" height="18" alt="" title="Supabase (Auth, RLS)"> <img src="assets/icons/nestjs.svg" width="18" height="18" alt="" title="NestJS"> <img src="assets/icons/prisma.svg" width="18" height="18" alt="" title="Prisma"> <img src="assets/icons/drizzle.svg" width="18" height="18" alt="" title="Drizzle"> <img src="assets/icons/zod.svg" width="18" height="18" alt="" title="Zod"> <img src="assets/icons/node.svg" width="18" height="18" alt="" title="Node.js"><br>PostgreSQL&nbsp;· Supabase (Auth, RLS)&nbsp;· NestJS&nbsp;· Prisma&nbsp;· Drizzle&nbsp;· Zod&nbsp;· Node.js |
 | **Frontend** | <img src="assets/icons/typescript.svg" width="18" height="18" alt="" title="TypeScript"> <img src="assets/icons/react.svg" width="18" height="18" alt="" title="React"> <img src="assets/icons/next.svg" width="18" height="18" alt="" title="Next.js"> <img src="assets/icons/vite.svg" width="18" height="18" alt="" title="Vite"> <img src="assets/icons/tailwind.svg" width="18" height="18" alt="" title="Tailwind CSS"> <img src="assets/icons/pwa.svg" width="18" height="18" alt="" title="PWA"><br>TypeScript&nbsp;· React&nbsp;· Next.js&nbsp;· Vite&nbsp;· Tailwind CSS&nbsp;· PWA |
 | **IA & Agentes** | <img src="assets/icons/claude.svg" width="18" height="18" alt="" title="Claude Code"> <img src="assets/icons/mcp.svg" width="18" height="18" alt="" title="MCP servers"> <img src="assets/icons/agents.svg" width="18" height="18" alt="" title="Spec-Driven Development, subagentes e skills"> <img src="assets/icons/browser.svg" width="18" height="18" alt="" title="Chrome DevTools MCP"><br>Claude Code&nbsp;· MCP servers&nbsp;· Spec-Driven Development, subagentes e skills&nbsp;· Chrome DevTools MCP |
@@ -71,7 +71,7 @@ Se a auditoria pede correção, o ciclo volta. Produção, segredos e custos sem
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/homelab-dark.svg"><img align="right" width="400" src="assets/homelab-light.svg" alt="Homelab conceitual: internet, roteador e ONT auditados e ajustados, servidor dedicado com Linux e Proxmox VE, DNS primário e secundário com Pi-hole e Unbound em containers LXC e VMs de laboratório isoladas. Próximos passos: rack MikroTik com VLANs e NAS para backup."></picture>
 
-Um servidor dedicado com Proxmox VE concentra o laboratório. O DNS da casa é recursivo e próprio: Pi-hole com Unbound em dois containers LXC, primário e secundário. O SSH só aceita chave.
+Um servidor dedicado com Proxmox VE concentra o laboratório. O DNS da rede é recursivo e próprio: Pi-hole com Unbound em dois containers LXC, primário e secundário. O SSH só aceita chave.
 
 VMs de estudo de segurança, como o Kali, ficam isoladas do resto da rede. Roteador e ONT passaram por auditoria e ajuste de desempenho.
 

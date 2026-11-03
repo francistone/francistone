@@ -8,8 +8,8 @@ Laboratório de infraestrutura, redes e automação: guias de diagnóstico, um c
 
 | Área | Guia | O que tem |
 |---|---|---|
-| Diagnóstico | [Checklist de diagnóstico de rede](troubleshooting/checklist-network.md) | Roteiro em 6 passos: físico, conectividade, DNS, rota, interface e desempenho |
-| Diagnóstico | [Diagnóstico de problemas de rede](troubleshooting/network-diagnosis.md) | Os mesmos passos, explicados, com as causas prováveis de cada sintoma |
+| Diagnóstico | [Checklist de diagnóstico de rede](troubleshooting/checklist-network.md) | Roteiro em 9 etapas: do físico ao desempenho, testes em horários diferentes, causas prováveis e registro do diagnóstico |
+| Diagnóstico | [Diagnóstico de problemas de rede](troubleshooting/network-diagnosis.md) | Conectividade, DNS, rota, interface e desempenho, passo a passo, e as causas mais prováveis |
 | Diagnóstico | [Análise de caso real](troubleshooting/real-case-analysis.md) | Upload pela metade e latência oscilando: testes, análise e conclusão |
 | Monitoramento | [Testes de rede](monitoring/network-tests.md) | Métricas, testes de latência e velocidade, monitoramento contínuo |
 | Monitoramento | [Script de diagnóstico](monitoring/network-diagnostic.sh) | Conectividade, DNS, rota, interfaces, tabela de rotas e porta 53, em um comando |

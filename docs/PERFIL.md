@@ -53,7 +53,7 @@ Antes de abrir qualquer repositório: lembre que **o histórico inteiro fica pú
 | **Amorinha** | Sim, se você aceitar que o nome do pet e a menção à família fiquem públicos | Os commits já usam o e-mail privado do GitHub. Conferir se há fotos reais ou nomes de pessoas no histórico. Decidir se o link do GitHub Pages entra no cartão. |
 | **Jogos** (estilo Undertale, xadrez e damas em LAN, TRÍADE) | Sim, com cuidado | **Estilo Undertale:** não pode usar música, sprites, personagens nem nomes do jogo original, só a mecânica. **LAN com voz:** nada de IP fixo no código. Adicionar LICENSE. |
 | **agent-loop** (extraído do Meu Imóvel) | Sim, é o diferencial mais forte | É uma missão à parte: tirar tudo que é do Meu Imóvel (docs, infraestrutura, regras de negócio) e deixar só o mecanismo genérico. Começar o repo do zero, sem histórico. |
-| Meu Imóvel, o projeto imobiliário anterior e o UnifiCar | **Não** | Têm dados do negócio, documentos jurídicos, detalhes de infraestrutura e de pagamentos. Ficam como "case" no README, sem código. |
+| Meu Imóvel, UnifiCar e os demais repositórios de negócio | **Não** | Têm dados do negócio, documentos jurídicos, detalhes de infraestrutura e de pagamentos. Ficam como "case" no README, sem código. |
 | `OSINT_Toolkit` | Não, por enquanto | Está vazio. Apagar se não for usar. |
 | Pesquisa com Freqtrade | Opcional | Se entrar, só como "explorando", sem promessa de resultado, sem chaves de corretora nem resultados financeiros. |
 

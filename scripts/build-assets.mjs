@@ -77,12 +77,12 @@ function fluxo(t) {
     b += `<circle cx="36" cy="${y}" r="13" fill="${t.panel}" stroke="${c}" stroke-width="1.6"/>` + text(36, y + 4, String(i + 1), { size: 11, fill: c, mono: true, anchor: 'middle' });
     b += text(62, y - 1, n, { size: 15.5, fill: t.ink, weight: 600 }) + text(62, y + 17, s, { size: 11.5, fill: t.muted, mono: true });
   });
-  // A auditoria pode devolver correções (FIX) para a campanha, no máximo 3 vezes.
+  // A auditoria pode devolver correções (FIX) à campanha duas vezes; na terceira, a decisão vai para o dono.
   const ya = y0 + gap * 3, yb = ya - gap, xr = 334;
   b += `<path d="M${xr} ${ya} C ${xr + 34} ${ya}, ${xr + 34} ${yb}, ${xr + 4} ${yb}" fill="none" stroke="${t.warm}" stroke-width="1.4" stroke-dasharray="4 4"/>`;
   b += `<path d="M${xr + 10} ${yb - 4} l-6 4 6 4" fill="none" stroke="${t.warm}" stroke-width="1.4"/>`;
-  b += text(xr - 8, yb + gap / 2 + 1, 'FIX', { size: 10, fill: t.warm, mono: true, anchor: 'end', ls: 1 }) + text(xr - 8, yb + gap / 2 + 14, 'até 3×', { size: 9.5, fill: t.warm, mono: true, anchor: 'end' });
-  return svgDoc(W, H, 'Fluxo de trabalho: 1 especificação, 2 plano em fases, 3 campanha autônoma com agentes, 4 auditoria independente feita por outro modelo, que pode devolver correções até 3 vezes, e 5 produção só com aprovação humana.', b, { motion: true });
+  b += text(xr - 8, yb + gap / 2 + 1, 'FIX', { size: 10, fill: t.warm, mono: true, anchor: 'end', ls: 1 }) + text(xr - 8, yb + gap / 2 + 14, 'até 2×; depois, eu', { size: 9.5, fill: t.warm, mono: true, anchor: 'end' });
+  return svgDoc(W, H, 'Fluxo de trabalho: 1 especificação, 2 plano em fases, 3 campanha autônoma com agentes, 4 auditoria independente feita por outro modelo, que pode devolver correções duas vezes antes de a decisão passar para mim, e 5 produção só com aprovação humana.', b, { motion: true });
 }
 
 /* ── Homelab conceitual (400 × 316). Sem IPs, faixas, nomes de máquina, provedor ou local. ── */

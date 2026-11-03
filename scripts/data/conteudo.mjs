@@ -7,13 +7,13 @@ export const PROJETOS = [
   {
     nome: 'Meu Imóvel', arquivo: 'meu-imovel', categoria: 'PRODUTO', repo: 'privado',
     status: 'pré-lançamento', tom: 'warm',
-    linhas: ['Anúncios de imóveis: proprietários e corretores', 'Regras no banco com RLS, MFA e fotos privadas'],
+    linhas: ['Anúncios de imóveis: proprietários e corretores', 'RLS no banco, MFA no admin e fotos privadas'],
     stack: [['next', 'Next.js'], ['supabase', 'Supabase'], ['postgresql', 'Postgres'], ['cloudflare', 'Cloudflare']],
     link: null, // repo privado; o site só entra quando o dono liberar a divulgação (PENDENCIAS.md)
   },
   {
     nome: 'UnifiCar', arquivo: 'unificar', categoria: 'SISTEMA', repo: 'privado',
-    status: 'em uso', tom: 'accent',
+    status: 'uso interno', tom: 'accent',
     linhas: ['Gestão de locadora de veículos e oficina', 'Três livros contábeis isolados, OCR e PDFs'],
     stack: [['nestjs', 'NestJS'], ['react', 'React'], ['prisma', 'Prisma'], ['docker', 'Docker']],
     link: null,
@@ -35,7 +35,7 @@ export const PROJETOS = [
 ];
 
 export const STACK = [
-  ['Infra & Redes', [['linux', 'Linux (Debian, Ubuntu)'], ['proxmox', 'Proxmox VE'], ['box', 'LXC'], ['docker', 'Docker'], ['nginx', 'Nginx'], ['caddy', 'Caddy'], ['cloudflare', 'Cloudflare (DNS, Tunnel, R2, Workers)'], ['pihole', 'Pi-hole + Unbound']]],
+  ['Infra & Redes', [['linux', 'Linux (Debian, Ubuntu)'], ['proxmox', 'Proxmox VE'], ['box', 'LXC'], ['docker', 'Docker'], ['nginx', 'Nginx'], ['caddy', 'Caddy'], ['cloudflare', 'Cloudflare (DNS, R2, Workers)'], ['pihole', 'Pi-hole + Unbound']]],
   ['Backend & Dados', [['postgresql', 'PostgreSQL'], ['supabase', 'Supabase (Auth, RLS)'], ['nestjs', 'NestJS'], ['prisma', 'Prisma'], ['drizzle', 'Drizzle'], ['zod', 'Zod'], ['node', 'Node.js']]],
   ['Frontend', [['typescript', 'TypeScript'], ['react', 'React'], ['next', 'Next.js'], ['vite', 'Vite'], ['tailwind', 'Tailwind CSS'], ['pwa', 'PWA']]],
   ['IA & Agentes', [['claude', 'Claude Code'], ['mcp', 'MCP servers'], ['agents', 'Spec-Driven Development, subagentes e skills'], ['browser', 'Chrome DevTools MCP']]],
