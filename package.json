@@ -1,0 +1,21 @@
+{
+  "name": "francistone-perfil",
+  "private": true,
+  "description": "Assets e automações do README de perfil de @francistone",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build-assets.mjs",
+    "check": "node scripts/check.mjs",
+    "preview": "node scripts/preview.mjs",
+    "social": "node scripts/social-png.mjs",
+    "atividade": "node scripts/atividade.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/geologica": "5.3.0",
+    "github-markdown-css": "5.8.1",
+    "markdown-it": "14.1.0",
+    "opentype.js": "2.0.0",
+    "simple-icons": "16.35.0"
+  }
+}

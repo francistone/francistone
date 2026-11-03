@@ -1,0 +1,41 @@
+# Atualiza os cartões de atividade do README com dados reais da API do GitHub.
+# Sem ações de terceiros: só o checkout oficial do GitHub, fixado por hash (não muda sem aviso).
+# Detalhes e como ligar o cartão de linguagens: MANUTENCAO.md
+name: Cartões de atividade
+
+on:
+  schedule:
+    - cron: '17 9 * * 1' # toda segunda, 06:17 no horário de Brasília
+  workflow_dispatch: {} # botão "Run workflow" na aba Actions
+  push:
+    paths: # roda também quando o gerador muda, para os cartões nunca ficarem defasados
+      - 'scripts/**'
+      - '.github/workflows/atividade.yml'
+
+permissions:
+  contents: write # só para gravar os SVGs gerados e o bloco do README
+
+concurrency:
+  group: atividade-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cartoes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0 (Node 24)
+
+      - name: Gerar cartões
+        run: node scripts/atividade.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }} # opcional; vazio = sem cartão de linguagens
+
+      - name: Salvar no repositório (só se algo mudou)
+        run: |
+          git add assets/generated README.md
+          if git diff --cached --quiet; then echo "Nada mudou."; exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "chore(atividade): atualiza cartões [skip ci]"
+          git push
