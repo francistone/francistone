@@ -82,7 +82,6 @@ VMs de estudo de segurança, como o Kali, ficam isoladas do resto da rede. Rotea
 
 <!-- ══════════ Atividade (gerado pela Action semanal; some se não houver dados) ══════════ -->
 <!-- atividade:inicio -->
-
 <!-- atividade:fim -->
 
 <!-- ══════════ Rodapé ══════════ -->

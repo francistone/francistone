@@ -16,7 +16,7 @@ export function replaceBlock(name, content) {
   const src = readFileSync(README, 'utf8');
   const re = new RegExp(`(<!-- ${name}:inicio -->)[\\s\\S]*?(<!-- ${name}:fim -->)`);
   if (!re.test(src)) throw new Error(`Marcadores do bloco "${name}" não encontrados no README.md`);
-  const next = src.replace(re, (_, a, b) => `${a}\n${content}\n${b}`);
+  const next = src.replace(re, (_, a, b) => (content ? `${a}\n${content}\n${b}` : `${a}\n${b}`));
   if (next !== src) writeFileSync(README, next);
   return next !== src;
 }
