@@ -40,7 +40,7 @@ Descrição e topics: na página do repositório, clique na engrenagem ao lado d
 | `francistone` | README de perfil: infraestrutura, redes e produtos construídos com agentes de IA | `github-profile` `profile-readme` `svg` `github-actions` | `assets/social/francistone.png` |
 | `infra-labs` | Laboratório de infraestrutura, redes e automação: diagnóstico na prática | `linux` `networking` `troubleshooting` `bash` `sysadmin` `network-diagnostics` | `assets/social/infra-labs.png` |
 
-**README do `infra-labs`:** há uma proposta revisada no mesmo padrão em [`docs/repos/infra-labs-README.md`](repos/infra-labs-README.md). Ela tira os emojis dos títulos, liga cada guia ao seu arquivo e deixa de anunciar pastas que ainda estão vazias. Só aplico no repositório `infra-labs` com a sua aprovação.
+**README do `infra-labs`:** já revisado no mesmo padrão (francistone/infra-labs#1). Cada guia está ligado ao seu arquivo, os títulos não têm emojis e o README não anuncia pastas vazias.
 
 ## 4. O que vale tornar público e o que limpar antes
 
